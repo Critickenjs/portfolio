@@ -110,9 +110,9 @@ const educationInfo = {
     {
       schoolName: "Lycée Jean Bart",
       logo: require("./assets/images/logo-jean-bart.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Baccalauréat mention bien spécialité Mathématiqueq et Numérique et Scienceq de l'Informatique.",
       duration: "September 2019 - juin 2022",
-      desc: "baccalauréat mention bien spécialité Mathématique et Numérique et Science de l'Informatique. ",
+      desc: "",
       descBullets: []
     }
   ]
@@ -149,7 +149,7 @@ const workExperiences = {
       company: "Mairie de Dunkerque",
       companylogo: require("./assets/images/2016-02-logoDK.jpg"),
       date: "juillet-aout 2022",
-      desc: "j'ai pu travailler en tant que animateur dans la mairie de Dunkerque.",
+      desc: "Travail tant que animateur dans la mairie de Dunkerque.",
       descBullets: [
       ]
     },
@@ -158,7 +158,7 @@ const workExperiences = {
       company: "Adecco",
       companylogo: require("./assets/images/Adecco_2016.png"),
       date: "juillet-aout 2023",
-      desc: "j'ai pu travailler en tant qu'interimaire chez Carrefour"
+      desc: "Travail en tant qu'interimaire chez Carrefour"
     },
   ]
 };
@@ -203,8 +203,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/ashitaka.jpg"),
-      projectName: "bot discord",
-      projectDesc: "Bot permettant de créer des composition de foot avec des membres de serveur discord en python",
+      projectName: "Bot discord",
+      projectDesc: "Bot permettant de créer des compositions de foot avec des membres de serveur discord en python",
       footerLink: [
         {
           name: "lien github",
@@ -216,7 +216,7 @@ const bigProjects = {
     {
       image: require("./assets/images/monko.png"),
       projectName: "MONKO",
-      projectDesc: "jeu de mémoire sur terminal codé en java",
+      projectDesc: "Jeu de mémoire sur terminal codé en java",
       footerLink: [
         {
           name: "lien github",
@@ -346,7 +346,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contacter moi ☎️"),
+  title: emoji("Contactez moi ☎️"),
   number: "07 60 19 91 53",
   email_address: "yliesselatifi@gmail.com"
 };
