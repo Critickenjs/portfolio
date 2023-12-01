@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Mes compétences",
-  subTitle: "Mes compétences en tant que étudiant ",
+  subTitle: "Mes compétences en tant qu'étudiant ",
   skills: [
     "- Qualité développement (Bonnes pratiques de programmation orienté-objet (SOLID), tests, CI/CD)",
     "- Gestion de projet agile et workflow Git",
@@ -110,8 +110,8 @@ const educationInfo = {
     {
       schoolName: "Lycée Jean Bart",
       logo: require("./assets/images/logo-jean-bart.png"),
-      subHeader: "Baccalauréat mention bien spécialité Mathématiqueq et Numérique et Scienceq de l'Informatique.",
-      duration: "September 2019 - juin 2022",
+      subHeader: "Baccalauréat mention bien spécialité Mathématiques et Numérique et Sciences de l'Informatique.",
+      duration: "Septembre 2019 - juin 2022",
       desc: "",
       descBullets: []
     }
@@ -149,7 +149,7 @@ const workExperiences = {
       company: "Mairie de Dunkerque",
       companylogo: require("./assets/images/2016-02-logoDK.jpg"),
       date: "juillet-aout 2022",
-      desc: "Travail tant que animateur dans la mairie de Dunkerque.",
+      desc: "Travail tant qu'animateur dans la mairie de Dunkerque.",
       descBullets: [
       ]
     },
@@ -186,13 +186,13 @@ const bigProjects = {
           name: "lien github",
           url: "https://github.com/Critickenjs/Bdd-de-JO"
         }
-        //  you can add extra buttons here.
+        
       ]
     },
     {
       image: require("./assets/images/tetris.jpeg"),
       projectName: "Projet-agile",
-      projectDesc: "Jeu tétris codé en java avec la methode scrum et agile",
+      projectDesc: "Jeu tétris codé en java avec la méthode scrum et agile",
       footerLink: [
         {
           name: "lien github",
