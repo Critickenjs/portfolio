@@ -109,7 +109,7 @@ const educationInfo = {
     },
     {
       schoolName: "Lycée Jean Bart",
-      logo: require("./assets/images/unnamed.jpg"),
+      logo: require("./assets/images/logo-jean-bart.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2019 - juin 2022",
       desc: "baccalauréat mention bien spécialité Mathématique et Numérique et Science de l'Informatique. ",
