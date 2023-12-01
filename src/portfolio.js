@@ -178,7 +178,7 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/sql.jpg"),
+      image: require("./assets/images/sql.png"),
       projectName: "SQL - Jeux olympique",
       projectDesc: "Création et ventilation de données dans une base de données relationnelle PostreSQL",
       footerLink: [
