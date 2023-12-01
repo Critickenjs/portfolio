@@ -22,6 +22,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewProjets = bigProjects.display;
+  const viewEdu = workExperiences.display;
 
   return (
     <Headroom>
@@ -48,6 +49,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Expériences</a>
+            </li>
+          )}
+          {viewEdu && (
+            <li>
+              <a href="#education">Formation</a>
             </li>
           )}
           {viewProjets && (
