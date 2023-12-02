@@ -98,7 +98,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Iut a de Lille",
+      schoolName: "IUT de Lille",
       logo: require("./assets/images/iut.png"),
       subHeader: "BUT Informatique",
       duration: "Semptembre 2022-Maintenant",
