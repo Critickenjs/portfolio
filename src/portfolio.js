@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Yliess El atifi",
-  title: "Bonjour, c'est Yliess El atifi",
+  title: "Bonjour, moi c'est Yliess El atifi",
   subTitle: emoji(
     "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, je suis à la recherche d'un stage de fin d'année d'une durée de 10 semaines à compter du 15 avril."
   ),
@@ -204,7 +204,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ashitaka.jpg"),
       projectName: "Bot discord",
-      projectDesc: "Bot permettant de créer des compositions de foot avec des membres de serveur discord en python",
+      projectDesc: "Bot permettant de créer des compositions de foot en python",
       footerLink: [
         {
           name: "lien github",
