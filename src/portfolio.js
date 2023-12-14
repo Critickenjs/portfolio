@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Yliess El atifi",
-  title: "Moi c'est Yliess El atifi",
+  title: "Bonjour, c'est Yliess El atifi",
   subTitle: emoji(
-    "Bonjour, moi c'est Yliess El Atifi, 19 ans, actuellement  en BUT informatique en parcours réalisation d'application, je suis à la recherche d'un stage de fin d'année en tant que développeur Java."
+    "Actuellement  en BUT 2 informatique en parcours réalisation d'application, je suis à la recherche d'un stage de fin d'année d'une durée de 10 semaines à compter du 15 avril."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing", 
@@ -110,9 +110,9 @@ const educationInfo = {
     {
       schoolName: "Lycée Jean Bart",
       logo: require("./assets/images/logo-jean-bart.png"),
-      subHeader: "Baccalauréat mention bien spécialité Mathématiques et Numérique et Sciences de l'Informatique.",
+      subHeader: "Baccalauréat mention bien .",
       duration: "Septembre 2019 - juin 2022",
-      desc: "",
+      desc: " Spécialité Mathématiques et Numérique et Sciences de l'Informatique",
       descBullets: []
     }
   ]
@@ -149,7 +149,7 @@ const workExperiences = {
       company: "Mairie de Dunkerque",
       companylogo: require("./assets/images/2016-02-logoDK.jpg"),
       date: "juillet-aout 2022",
-      desc: "Travail tant qu'animateur dans la mairie de Dunkerque.",
+      desc: "Travail en tant qu'animateur dans la mairie de Dunkerque.",
       descBullets: [
       ]
     },
