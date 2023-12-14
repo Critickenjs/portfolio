@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Yliess El atifi",
-  title: "Bonjour, moi c'est Yliess El atifi",
+  title: "Bonjour, moi c'est Yliess El Atifi",
   subTitle: emoji(
-    "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, Je recherche activement un stage de fin d'année d'une durée de 10 semaines, débutant le 15 avril."
+    "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, je recherche activement un stage de fin d'année d'une durée de 10 semaines, débutant le 15 avril."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing", 
@@ -101,8 +101,8 @@ const educationInfo = {
       schoolName: "IUT de Lille",
       logo: require("./assets/images/iut.png"),
       subHeader: "BUT Informatique",
-      duration: "Semptembre 2022-Maintenant",
-      desc: "Actuellement en parcours Réalisation D'Application",
+      duration: "Septembre 2022-Maintenant",
+      desc: "Actuellement en parcours réalisation D'application",
       descBullets: [
         
       ]
