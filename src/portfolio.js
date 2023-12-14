@@ -23,7 +23,7 @@ const greeting = {
   username: "Yliess El atifi",
   title: "Bonjour, c'est Yliess El atifi",
   subTitle: emoji(
-    "Actuellement  en BUT 2 informatique en parcours réalisation d'application, je suis à la recherche d'un stage de fin d'année d'une durée de 10 semaines à compter du 15 avril."
+    "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, je suis à la recherche d'un stage de fin d'année d'une durée de 10 semaines à compter du 15 avril."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing", 
