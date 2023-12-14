@@ -110,7 +110,7 @@ const educationInfo = {
     {
       schoolName: "Lycée Jean Bart",
       logo: require("./assets/images/logo-jean-bart.png"),
-      subHeader: "Baccalauréat mention bien .",
+      subHeader: "Baccalauréat mention bien",
       duration: "Septembre 2019 - juin 2022",
       desc: " Spécialité Mathématiques et Numérique et Sciences de l'Informatique",
       descBullets: []
