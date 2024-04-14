@@ -26,7 +26,7 @@ const greeting = {
     "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, je recherche activement un stage de fin d'année d'une durée de 10 semaines, débutant le 15 avril."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing", 
+    "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,8 +52,8 @@ const skillsSection = {
     "- Gestion de projet agile et workflow Git",
     "- Anglais (B2)",
     "- Espagnol (B1)",
-      
-    
+
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -104,7 +104,7 @@ const educationInfo = {
       duration: "Septembre 2022-Maintenant",
       desc: "Actuellement en parcours réalisation D'application",
       descBullets: [
-        
+
       ]
     },
     {
@@ -186,7 +186,7 @@ const bigProjects = {
           name: "lien github",
           url: "https://github.com/Critickenjs/Bdd-de-JO"
         }
-        
+
       ]
     },
     {
@@ -196,31 +196,42 @@ const bigProjects = {
       footerLink: [
         {
           name: "lien github",
-          url: "https://github.com/Critickenjs/Projet-agile"
+          url: "https://github.com/Critickenjs/Projet-agile",
+          description: "Projet agile"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/ashitaka.jpg"),
-      projectName: "Bot discord",
-      projectDesc: "Bot permettant de créer des compositions de foot en python",
+      image: require("./assets/images/chasse-au-monstre.png"),
+      projectName: "Chasse au monstre",
+      projectDesc: "Un jeu éducatif ludique qui intègre des algorithmes de recherche de chemins.",
       footerLink: [
         {
           name: "lien github",
-          url: "https://github.com/Critickenjs/tournoi"
+          url: "https://github.com/Critickenjs/Chasse-au-monstre.git"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/monko.png"),
-      projectName: "MONKO",
-      projectDesc: "Jeu de mémoire sur terminal codé en java",
+      image: require("./assets/images/rest.png"),
+      projectName: "API Rest - Pizzeria",
+      projectDesc: "API Rest codé en java pour une pizzeria",
       footerLink: [
         {
           name: "lien github",
-          url: "https://github.com/Critickenjs/monko.git"
+          url: "https://github.com/Critickenjs/Api-Rest-pizzeria.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/js-em-up.png"),
+      projectName: "Js em up",
+      projectDesc: "jeu JavaScript avec Canvas, intégré à Webpack, Babel, Node.js et Express",
+      footerLink: [
+        {
+          name: "lien github",
+          url: "https://github.com/Critickenjs/js-em-up.git"
         }
       ]
     }
@@ -278,7 +289,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
