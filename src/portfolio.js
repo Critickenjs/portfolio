@@ -210,6 +210,10 @@ const bigProjects = {
         {
           name: "lien github",
           url: "https://github.com/Critickenjs/Chasse-au-monstre.git"
+        },
+        {
+          name: "descriptif du projet",
+          url: "https://docs.google.com/document/d/e/2PACX-1vSUB25RseKRAyvkmXfrizlZKnidVCfiCRKfoWVk4sQbY-yKj-VQEwTgHZoi7Q5MWiOQ2zywI5fCLN-C/pub"
         }
       ]
     },
@@ -221,6 +225,10 @@ const bigProjects = {
         {
           name: "lien github",
           url: "https://github.com/Critickenjs/Api-Rest-pizzeria.git"
+        },
+        {
+          name: "descriptif du projet",
+          url: "https://docs.google.com/document/d/e/2PACX-1vTr2fV1diNMI9Z89WP8H-DSfgTl_TLSEHKGKz_QazCb36_UxSOEkAljOgaP6n7Co7Ie2CCVInTAQy0u/pub"
         }
       ]
     },
@@ -232,6 +240,10 @@ const bigProjects = {
         {
           name: "lien github",
           url: "https://github.com/Critickenjs/js-em-up.git"
+        },
+        {
+          name: "descriptif du projet",
+          url: "https://docs.google.com/document/d/e/2PACX-1vRjAoPudXWt5BVWbIZ5fjK9DWCQHXKnEgPSD73yGU1SyUTFsBwPop8cMrmrF5y27MOqR-ewnLzjpzni/pub"
         }
       ]
     }
