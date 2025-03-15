@@ -54,12 +54,16 @@ const skillsSection = {
     emoji("⚡ Développement d'applications backend avec Java et Golang"),
     emoji(
       "⚡ Conception de base de données relationnelles et non relationnelles"
-    ),
-    emoji("⚡ Développement d'API Rest avec Spring Boot et Express"),
-    emoji("⚡ Développement d'application de bureau avec Java et Python"),
-    
+    ),    
+    emoji("⚡ Développement d'API REST sécurisées et performantes avec Spring Boot"),
+    emoji("⚡ Gestion de la persistance des données avec Spring Data JPA et Hibernate"),
+    emoji("⚡ Implémentation de tests unitaires et d'intégration avec JUnit et Mockito"),
+    emoji("⚡ Conception et manipulation de bases de données NoSQL (MongoDB, Firebase, etc.)"),
+    emoji("⚡ Optimisation des performances et mise en place de modèles de données adaptés aux architectures distribuées"),
+    emoji("⚡ Automatisation du déploiement avec GitHub Actions, GitLab CI/CD ou Jenkins"),
+    emoji("⚡ Mise en place de pipelines CI/CD pour garantir l'intégration et la livraison continues"),
     emoji("⚡Gestion de projet agile et workflow Git"),
-    emoji("⚡Anglais (C1)")
+    emoji("⚡Anglais (C1)"),
   ],
 
   softwareSkills: [
@@ -85,11 +89,11 @@ const skillsSection = {
     },
     {
       skillName: "node",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node fa-bounce"
     },
     {
       skillName: "Golang",
-      fontAwesomeClassname: "fas fa-golang"
+      fontAwesomeClassname: "fa-brands fa-golang"
     },
     {
       skillName: "Spring Boot",
