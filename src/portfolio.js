@@ -23,7 +23,7 @@ const greeting = {
   username: "Yliess El atifi",
   title: "Bonjour, moi c'est Yliess El Atifi",
   subTitle: emoji(
-    "Actuellement étudiant dans la formation BUT 2 informatique en parcours réalisation d'application, je recherche activement un stage de fin d'année d'une durée de 10 semaines, débutant le 15 avril."
+    "Actuellement étudiant dans la formation BUT 3 informatique en parcours réalisation d'application, je recherche activement d'unne alternance pour l'année 2025-2026"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1tS2oRIxghdCQpp-BQj-2RDBQt1oV4XIN/view?usp=sharing",
@@ -48,26 +48,21 @@ const skillsSection = {
   title: "Mes compétences",
   subTitle: "Mes compétences en tant qu'étudiant ",
   skills: [
-    "- Qualité développement (Bonnes pratiques de programmation orienté-objet (SOLID), tests, CI/CD)",
-    "- Gestion de projet agile et workflow Git",
-    "- Anglais (B2)",
-    "- Espagnol (B1)",
-
-
+    emoji(
+      "⚡ Développement d'applications web et mobile avec React et React Native"
+    ), 
+    emoji("⚡ Développement d'applications backend avec Java et Golang"),
+    emoji(
+      "⚡ Conception de base de données relationnelles et non relationnelles"
+    ),
+    emoji("⚡ Développement d'API Rest avec Spring Boot et Express"),
+    emoji("⚡ Développement d'application de bureau avec Java et Python"),
+    
+    emoji("⚡Gestion de projet agile et workflow Git"),
+    emoji("⚡Anglais (C1)")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css-3",
-      fontAwesomeClassname: "fab fa-css3"
-    },
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
@@ -77,10 +72,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -88,8 +79,29 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "node",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Golang",
+      fontAwesomeClassname: "fas fa-golang"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    }
+    
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -145,13 +157,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Stagiaire au laboratoire CRIStAL au PaDR",
+      company: "CRIStAL",
+      companylogo: require("./assets/images/cristam.png"),
+      date: "avril-juin 2024",
+      desc: "Developpement et conteynérisation d'un  d’un système d’information cartographique pour véhicules autonomes",
+      descBullets: [
+        "Le but de mon projet était de mettre en œuvre un SIG (Système d’Information Géographique) pour les véhicules autonomes (Renault zoé). J’avais comme fonctionnalités à implémenter : un interfaçage logiciel entre le SIG et le système de localisation, développement d’un horizon électronique (ensemble des routes accessibles par le véhicule dans sa trajectoire), Mise à disposition de l’horizon électronique sous un topic ROS, Extraction d’attributs de base de données dans cet horizon électronique, conteneurisation du système sous Docker pour la diffusion du code et la documentation associée. Dans les grandes lignes, je dois faire un logiciel capable de visualiser une map routière pour localiser la voiture autonome. La bonne conduite de ce projet pourrait permettre le développement d’algorithmes de conduite autonome"
+      ]
+    },
+    {
       role: "Animateur",
       company: "Mairie de Dunkerque",
       companylogo: require("./assets/images/2016-02-logoDK.jpg"),
       date: "juillet-aout 2022",
       desc: "Travail en tant qu'animateur dans la mairie de Dunkerque.",
-      descBullets: [
-      ]
+      descBullets: []
     },
     {
       role: "Employé libre-service",
@@ -246,7 +267,19 @@ const bigProjects = {
           url: "https://docs.google.com/document/d/e/2PACX-1vRjAoPudXWt5BVWbIZ5fjK9DWCQHXKnEgPSD73yGU1SyUTFsBwPop8cMrmrF5y27MOqR-ewnLzjpzni/pub"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/riscv.jpg"),
+      projectName: "Emulateur Risc-v",
+      projectDesc: "Emulateur Risc-v codé en Go",
+      footerLink: [
+        {
+          name: "lien github",
+          url: "https://github.com/Critickenjs/js-em-up.git"
+        },
+       
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -370,7 +403,6 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contactez moi ☎️"),
-  number: "07 60 19 91 53",
   email_address: "yliesselatifi@gmail.com"
 };
 
