@@ -165,7 +165,7 @@ const workExperiences = {
       company: "CRIStAL",
       companylogo: require("./assets/images/cristam.png"),
       date: "avril-juin 2024",
-      desc: "Developpement et conteynérisation d'un  d’un système d’information cartographique pour véhicules autonomes",
+      desc: "Developpement et conteneurisation d’un système d’information cartographique pour véhicules autonomes",
       descBullets: [
         "Le but de mon projet était de mettre en œuvre un SIG (Système d’Information Géographique) pour les véhicules autonomes (Renault zoé). J’avais comme fonctionnalités à implémenter : un interfaçage logiciel entre le SIG et le système de localisation, développement d’un horizon électronique (ensemble des routes accessibles par le véhicule dans sa trajectoire), Mise à disposition de l’horizon électronique sous un topic ROS, Extraction d’attributs de base de données dans cet horizon électronique, conteneurisation du système sous Docker pour la diffusion du code et la documentation associée. Dans les grandes lignes, je dois faire un logiciel capable de visualiser une map routière pour localiser la voiture autonome. La bonne conduite de ce projet pourrait permettre le développement d’algorithmes de conduite autonome"
       ]
